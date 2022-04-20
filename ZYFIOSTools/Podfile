@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ZYFIOSTools' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ZYFIOSTools
+  #布局
+  pod 'SnapKit'
+  #网络
+  pod 'Moya'
+  pod 'SwiftyRSA'
+  #开屏广告
+  pod 'XHLaunchAd'
+  #渐变kit
+  pod 'JXGradientKit'
+
+end
